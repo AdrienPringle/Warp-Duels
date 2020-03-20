@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452A71741DA26DA300DC920F /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A71731DA26DA300DC920F /* Bullet.swift */; };
+		452A71761DA26F8B00DC920F /* Bullet2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 452A71751DA26F8B00DC920F /* Bullet2.sks */; };
+		452A71781DA2728A00DC920F /* Bullet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 452A71771DA2728A00DC920F /* Bullet.sks */; };
+		455A66E71D9CEDBB00BCCBD1 /* BorderWalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A66E61D9CEDBB00BCCBD1 /* BorderWalls.swift */; };
+		455A66ED1D9D069600BCCBD1 /* BorderEffect2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 455A66EC1D9D069600BCCBD1 /* BorderEffect2.sks */; };
+		456DA1EF1E961B9200D10BAC /* AIOpponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1EE1E961B9200D10BAC /* AIOpponent.swift */; };
+		4583A2EF1DB1E3CB007855DC /* TitleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4583A2EE1DB1E3CB007855DC /* TitleScene.sks */; };
+		4583A2F31DB2506E007855DC /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583A2F21DB2506E007855DC /* TitleScene.swift */; };
+		45B148E51DA215CF008350C1 /* Stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45B148E41DA215CF008350C1 /* Stars.sks */; };
+		45C7D4321D9A71B700265F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7D4311D9A71B700265F54 /* AppDelegate.swift */; };
+		45C7D4341D9A71B700265F54 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7D4331D9A71B700265F54 /* GameScene.swift */; };
+		45C7D4361D9A71B700265F54 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45C7D4351D9A71B700265F54 /* GameScene.sks */; };
+		45C7D4381D9A71B700265F54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C7D4371D9A71B700265F54 /* Images.xcassets */; };
+		45C7D43B1D9A71B700265F54 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C7D4391D9A71B700265F54 /* MainMenu.xib */; };
+		45C7D4471D9A71B700265F54 /* space_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7D4461D9A71B700265F54 /* space_gameTests.swift */; };
+		45C7D4511D9A71CD00265F54 /* spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7D4501D9A71CD00265F54 /* spaceship.swift */; };
+		45C7D4531D9A813200265F54 /* controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7D4521D9A813200265F54 /* controls.swift */; };
+		45CEAB9F1D9FB19B005D5A79 /* Trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45CEAB9E1D9FB19B005D5A79 /* Trail.sks */; };
+		45D67CAD1DB26149006ECD87 /* TitleEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45D67CAC1DB26149006ECD87 /* TitleEffect.sks */; };
+		45D67CAF1DB3676E006ECD87 /* TitleSceneText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D67CAE1DB3676E006ECD87 /* TitleSceneText.swift */; };
+		45D67CB11DB39023006ECD87 /* ControlsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D67CB01DB39023006ECD87 /* ControlsScene.swift */; };
+		45D67CB31DB3A0C5006ECD87 /* CreditsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D67CB21DB3A0C5006ECD87 /* CreditsScene.swift */; };
+		45E005E01D9FCA3500329A9D /* BorderEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45E005DF1D9FCA3500329A9D /* BorderEffect.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C7D4411D9A71B700265F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C7D4241D9A71B700265F54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C7D42B1D9A71B700265F54;
+			remoteInfo = "space game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		452A71731DA26DA300DC920F /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		452A71751DA26F8B00DC920F /* Bullet2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bullet2.sks; sourceTree = "<group>"; };
+		452A71771DA2728A00DC920F /* Bullet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bullet.sks; sourceTree = "<group>"; };
+		455A66E61D9CEDBB00BCCBD1 /* BorderWalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderWalls.swift; sourceTree = "<group>"; };
+		455A66EC1D9D069600BCCBD1 /* BorderEffect2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BorderEffect2.sks; sourceTree = "<group>"; };
+		456DA1EE1E961B9200D10BAC /* AIOpponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIOpponent.swift; sourceTree = "<group>"; };
+		4583A2EE1DB1E3CB007855DC /* TitleScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleScene.sks; sourceTree = "<group>"; };
+		4583A2F21DB2506E007855DC /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		45B148E41DA215CF008350C1 /* Stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Stars.sks; sourceTree = "<group>"; };
+		45C7D42C1D9A71B700265F54 /* space game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "space game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C7D4301D9A71B700265F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C7D4311D9A71B700265F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45C7D4331D9A71B700265F54 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		45C7D4351D9A71B700265F54 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		45C7D4371D9A71B700265F54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45C7D43A1D9A71B700265F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		45C7D4401D9A71B700265F54 /* space gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "space gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C7D4451D9A71B700265F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C7D4461D9A71B700265F54 /* space_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = space_gameTests.swift; sourceTree = "<group>"; };
+		45C7D4501D9A71CD00265F54 /* spaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spaceship.swift; sourceTree = "<group>"; };
+		45C7D4521D9A813200265F54 /* controls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controls.swift; sourceTree = "<group>"; };
+		45CEAB9E1D9FB19B005D5A79 /* Trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Trail.sks; sourceTree = "<group>"; };
+		45D67CAC1DB26149006ECD87 /* TitleEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleEffect.sks; sourceTree = "<group>"; };
+		45D67CAE1DB3676E006ECD87 /* TitleSceneText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleSceneText.swift; sourceTree = "<group>"; };
+		45D67CB01DB39023006ECD87 /* ControlsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsScene.swift; sourceTree = "<group>"; };
+		45D67CB21DB3A0C5006ECD87 /* CreditsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsScene.swift; sourceTree = "<group>"; };
+		45E005DF1D9FCA3500329A9D /* BorderEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BorderEffect.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C7D4291D9A71B700265F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C7D43D1D9A71B700265F54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C7D4231D9A71B700265F54 = {
+			isa = PBXGroup;
+			children = (
+				45C7D42E1D9A71B700265F54 /* space game */,
+				45C7D4431D9A71B700265F54 /* space gameTests */,
+				45C7D42D1D9A71B700265F54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C7D42D1D9A71B700265F54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C7D42C1D9A71B700265F54 /* space game.app */,
+				45C7D4401D9A71B700265F54 /* space gameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C7D42E1D9A71B700265F54 /* space game */ = {
+			isa = PBXGroup;
+			children = (
+				45C7D4311D9A71B700265F54 /* AppDelegate.swift */,
+				45C7D4331D9A71B700265F54 /* GameScene.swift */,
+				456DA1EE1E961B9200D10BAC /* AIOpponent.swift */,
+				4583A2F21DB2506E007855DC /* TitleScene.swift */,
+				45D67CB01DB39023006ECD87 /* ControlsScene.swift */,
+				45D67CB21DB3A0C5006ECD87 /* CreditsScene.swift */,
+				45C7D4501D9A71CD00265F54 /* spaceship.swift */,
+				45D67CAE1DB3676E006ECD87 /* TitleSceneText.swift */,
+				452A71731DA26DA300DC920F /* Bullet.swift */,
+				455A66E61D9CEDBB00BCCBD1 /* BorderWalls.swift */,
+				45C7D4521D9A813200265F54 /* controls.swift */,
+				45C7D4351D9A71B700265F54 /* GameScene.sks */,
+				4583A2EE1DB1E3CB007855DC /* TitleScene.sks */,
+				45C7D4371D9A71B700265F54 /* Images.xcassets */,
+				45E005DC1D9FBDE300329A9D /* Effects */,
+				45C7D4391D9A71B700265F54 /* MainMenu.xib */,
+				45C7D42F1D9A71B700265F54 /* Supporting Files */,
+			);
+			path = "space game";
+			sourceTree = "<group>";
+		};
+		45C7D42F1D9A71B700265F54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C7D4301D9A71B700265F54 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C7D4431D9A71B700265F54 /* space gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				45C7D4461D9A71B700265F54 /* space_gameTests.swift */,
+				45C7D4441D9A71B700265F54 /* Supporting Files */,
+			);
+			path = "space gameTests";
+			sourceTree = "<group>";
+		};
+		45C7D4441D9A71B700265F54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C7D4451D9A71B700265F54 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E005DC1D9FBDE300329A9D /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				455A66EC1D9D069600BCCBD1 /* BorderEffect2.sks */,
+				45E005DF1D9FCA3500329A9D /* BorderEffect.sks */,
+				45CEAB9E1D9FB19B005D5A79 /* Trail.sks */,
+				45B148E41DA215CF008350C1 /* Stars.sks */,
+				452A71751DA26F8B00DC920F /* Bullet2.sks */,
+				452A71771DA2728A00DC920F /* Bullet.sks */,
+				45D67CAC1DB26149006ECD87 /* TitleEffect.sks */,
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C7D42B1D9A71B700265F54 /* space game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C7D44A1D9A71B700265F54 /* Build configuration list for PBXNativeTarget "space game" */;
+			buildPhases = (
+				45C7D4281D9A71B700265F54 /* Sources */,
+				45C7D4291D9A71B700265F54 /* Frameworks */,
+				45C7D42A1D9A71B700265F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "space game";
+			productName = "space game";
+			productReference = 45C7D42C1D9A71B700265F54 /* space game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C7D43F1D9A71B700265F54 /* space gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C7D44D1D9A71B700265F54 /* Build configuration list for PBXNativeTarget "space gameTests" */;
+			buildPhases = (
+				45C7D43C1D9A71B700265F54 /* Sources */,
+				45C7D43D1D9A71B700265F54 /* Frameworks */,
+				45C7D43E1D9A71B700265F54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C7D4421D9A71B700265F54 /* PBXTargetDependency */,
+			);
+			name = "space gameTests";
+			productName = "space gameTests";
+			productReference = 45C7D4401D9A71B700265F54 /* space gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C7D4241D9A71B700265F54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Adrien Pringle";
+				TargetAttributes = {
+					45C7D42B1D9A71B700265F54 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					45C7D43F1D9A71B700265F54 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 45C7D42B1D9A71B700265F54;
+					};
+				};
+			};
+			buildConfigurationList = 45C7D4271D9A71B700265F54 /* Build configuration list for PBXProject "Warp Duels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C7D4231D9A71B700265F54;
+			productRefGroup = 45C7D42D1D9A71B700265F54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C7D42B1D9A71B700265F54 /* space game */,
+				45C7D43F1D9A71B700265F54 /* space gameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C7D42A1D9A71B700265F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C7D4361D9A71B700265F54 /* GameScene.sks in Resources */,
+				45D67CAD1DB26149006ECD87 /* TitleEffect.sks in Resources */,
+				452A71761DA26F8B00DC920F /* Bullet2.sks in Resources */,
+				45C7D4381D9A71B700265F54 /* Images.xcassets in Resources */,
+				452A71781DA2728A00DC920F /* Bullet.sks in Resources */,
+				45B148E51DA215CF008350C1 /* Stars.sks in Resources */,
+				455A66ED1D9D069600BCCBD1 /* BorderEffect2.sks in Resources */,
+				45C7D43B1D9A71B700265F54 /* MainMenu.xib in Resources */,
+				45CEAB9F1D9FB19B005D5A79 /* Trail.sks in Resources */,
+				4583A2EF1DB1E3CB007855DC /* TitleScene.sks in Resources */,
+				45E005E01D9FCA3500329A9D /* BorderEffect.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C7D43E1D9A71B700265F54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C7D4281D9A71B700265F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455A66E71D9CEDBB00BCCBD1 /* BorderWalls.swift in Sources */,
+				45D67CB31DB3A0C5006ECD87 /* CreditsScene.swift in Sources */,
+				45C7D4511D9A71CD00265F54 /* spaceship.swift in Sources */,
+				4583A2F31DB2506E007855DC /* TitleScene.swift in Sources */,
+				45C7D4531D9A813200265F54 /* controls.swift in Sources */,
+				45D67CB11DB39023006ECD87 /* ControlsScene.swift in Sources */,
+				456DA1EF1E961B9200D10BAC /* AIOpponent.swift in Sources */,
+				45D67CAF1DB3676E006ECD87 /* TitleSceneText.swift in Sources */,
+				45C7D4341D9A71B700265F54 /* GameScene.swift in Sources */,
+				45C7D4321D9A71B700265F54 /* AppDelegate.swift in Sources */,
+				452A71741DA26DA300DC920F /* Bullet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C7D43C1D9A71B700265F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C7D4471D9A71B700265F54 /* space_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45C7D4421D9A71B700265F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C7D42B1D9A71B700265F54 /* space game */;
+			targetProxy = 45C7D4411D9A71B700265F54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45C7D4391D9A71B700265F54 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C7D43A1D9A71B700265F54 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C7D4481D9A71B700265F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45C7D4491D9A71B700265F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45C7D44B1D9A71B700265F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2.1.1;
+				INFOPLIST_FILE = "space game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "space game";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		45C7D44C1D9A71B700265F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2.1.1;
+				INFOPLIST_FILE = "space game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "space game";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		45C7D44E1D9A71B700265F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "space gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "space gameTests";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/space game.app/Contents/MacOS/space game";
+			};
+			name = Debug;
+		};
+		45C7D44F1D9A71B700265F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "space gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "space gameTests";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/space game.app/Contents/MacOS/space game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C7D4271D9A71B700265F54 /* Build configuration list for PBXProject "Warp Duels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C7D4481D9A71B700265F54 /* Debug */,
+				45C7D4491D9A71B700265F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C7D44A1D9A71B700265F54 /* Build configuration list for PBXNativeTarget "space game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C7D44B1D9A71B700265F54 /* Debug */,
+				45C7D44C1D9A71B700265F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C7D44D1D9A71B700265F54 /* Build configuration list for PBXNativeTarget "space gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C7D44E1D9A71B700265F54 /* Debug */,
+				45C7D44F1D9A71B700265F54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C7D4241D9A71B700265F54 /* Project object */;
+}
